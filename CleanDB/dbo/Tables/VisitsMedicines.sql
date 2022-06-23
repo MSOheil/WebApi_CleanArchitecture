@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[VisitsMedicines]
+(
+	[VisitsMedicinesId] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [VisitId] UNIQUEIDENTIFIER NULL, 
+    [MedicineId] UNIQUEIDENTIFIER NULL
+)
